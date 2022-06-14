@@ -11,9 +11,9 @@ function Form(){
             e.preventDefault();
             if(!name) return false;
 
-            const names = name.split(',');
-            const data = names.map((name) => ({id:nanoid(),name}) )
-            dispatch(addContacts(data));
+           // const names = name.split(',');
+            //const data = names.map((name) => ({id:nanoid(),name}) )
+            dispatch(addContact({id:nanoid(),name}));
             setName('');
       }
 
