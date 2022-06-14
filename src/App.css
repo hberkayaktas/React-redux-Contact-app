@@ -55,13 +55,17 @@ list-style-type: none;
   color:white;
   text-align: center;
   cursor: pointer;
-}
+ }
 .deleteAllBtn{
   color: white;
   text-align: right;
   font-size: 15px;
   cursor: pointer;
+
 }
 .deleteAllBtn:hover{
   text-decoration: underline;
+}
+.edit > span {
+  margin-left: 10px;
 }
